@@ -1,5 +1,5 @@
 # AMCS 390D
-###Fall 2017
+### Fall 2017
 
 Time: 1:00-2:30 p.m. every Monday and Thursday (tentative)
 Location: Building 9, Room 3135 

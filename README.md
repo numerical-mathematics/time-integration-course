@@ -19,7 +19,7 @@ Supplementary texts:
 Small portions of a few other texts will be used during the course; these may be distributed as handouts if not available online.
 
 
-Course homepage: https://piazza.com/kaust.edu.sa/fall2016/amcs251/home
+Course homepage: https://github.com/numerical-mathematics/time-integration-course
 
 ## Overview and preparation
 

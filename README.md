@@ -1,5 +1,5 @@
 # AMCS 390D
-###Fall 2017
+### Fall 2017
 
 Time: 1:00-2:30 p.m. every Monday and Thursday (tentative)
 Location: Building 9, Room 3135 
@@ -10,16 +10,18 @@ Instructor's office: Al-Khawarizmi building, Room 4202
 Office hour: By appointment  
 
 Primary text: Solving Ordinary Differential Equations (2 vols. by Hairer, Norsett, Wanner)
+- [Volume 1 (explicit methods)](https://link.springer.com/book/10.1007%2F978-3-540-78862-1)
+- [Volume 2 (implicit methods)](https://link.springer.com/book/10.1007%2F978-3-642-05221-7)
 
 Supplementary texts:
 
-- Numerical methods for ordinary differential equations (Butcher)
-- Numerical solution of time-dependent advection-diffusion-reaction equations (Hundsdorfer & Verwer)
+- [Numerical methods for ordinary differential equations (Butcher)](http://onlinelibrary.wiley.com/book/10.1002/9781119121534)
+- [Numerical solution of time-dependent advection-diffusion-reaction equations (Hundsdorfer & Verwer)](https://link.springer.com/book/10.1007%2F978-3-662-09017-6)
 
 Small portions of a few other texts will be used during the course; these may be distributed as handouts if not available online.
 
 
-Course homepage: https://piazza.com/kaust.edu.sa/fall2016/amcs251/home
+Course homepage: https://github.com/numerical-mathematics/time-integration-course
 
 ## Overview and preparation
 

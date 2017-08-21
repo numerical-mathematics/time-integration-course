@@ -1,0 +1,45 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb}
+
+\newcommand{\C}{{\mathbb C}}
+\newcommand{\R}{{\mathbb R}}
+\DeclareMathOperator{\range}{range}
+\DeclareMathOperator{\Null}{null}
+\DeclareMathOperator{\Real}{Real}
+
+\title{AMCS 390 Fall 2017 Homework 1}
+
+\begin{document}
+\date{}
+\maketitle
+
+Come prepared to present your solutions on Thursday, August 24th.
+\begin{enumerate}
+
+    \item   Choose one of the following two problems and methods:
+
+            (a) The harmonic oscillator $u''(t) = -u$, and the forward Euler method.
+
+            (b) The test problem with decay: $u'(t) = -u$ and the explicit midpoint method.
+
+            Write a program that uses the given method to approximate the solution
+            of the problem up to time $T=10$.  Run your program with different choices
+            of the step size and comment on what you observe.
+
+            Is the numerical method stable?  Does the numerical solution
+            converge to the exact solution?  Discuss how your answers
+            relate to the region of absolute stability of the method.
+
+    \item   Characterize all solutions of the initial value problem
+
+            $$u'(t) = \sqrt{u}$$
+
+            with initial value $u(0)=0$.  What can you say about the more general
+            problem $u'(t) = u^{1/\alpha}$ (with $u(0)=0$) for any $\alpha>1$?
+
+            Bonus: what about $u'(t) = u^\alpha$ with $u(0)=1$ for $\alpha>1$?
+            See Hundsdorfer \& Verwer section I.2.1 for another example like these.
+
+\end{enumerate}
+
+\end{document}

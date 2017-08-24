@@ -1,0 +1,34 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb}
+
+\newcommand{\C}{{\mathbb C}}
+\newcommand{\R}{{\mathbb R}}
+\DeclareMathOperator{\range}{range}
+\DeclareMathOperator{\Null}{null}
+\DeclareMathOperator{\Real}{Real}
+
+\title{AMCS 390 Fall 2017 Homework 2}
+
+\begin{document}
+\date{}
+\maketitle
+
+Come prepared to present your solutions on Monday, August 28th.
+\begin{enumerate}
+
+    \item   A circulant matrix is any $m\times m$ matrix that can be written as
+            $A=\sum_{k=0}^{m-1} a_{k+1}C^k$, where $C$ is the cyclic shift matrix:
+
+            $$C = \begin{bmatrix} 0 & 1 & 0 & \cdots & 0 \\ \vdots & 0 & 1 & & \vdots \\
+              0 & & \ddots & \ddots & 0  \\ 0 & & \cdots & 0 & 1\\ 1 & 0 & & \cdots & 0\end{bmatrix}$$
+
+            Show that the eigenvectors of any such matrix are discrete Fourier modes
+            with entries $v_j e^{ij\xi}$.  What are the appropriate values of $\xi$?
+
+    \item   Determine the numerical dispersion relation for the heat equation semi-discretized with
+            second-order centered differences.  How does this differ from the true dispersion
+            relation?
+
+\end{enumerate}
+
+\end{document}

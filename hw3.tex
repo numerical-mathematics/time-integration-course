@@ -1,0 +1,44 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb}
+
+\newcommand{\C}{{\mathbb C}}
+\newcommand{\R}{{\mathbb R}}
+\DeclareMathOperator{\range}{range}
+\DeclareMathOperator{\Null}{null}
+\DeclareMathOperator{\Real}{Real}
+
+\title{AMCS 390 Fall 2017 Homework 3}
+
+\begin{document}
+\date{}
+\maketitle
+
+Come prepared to present your solutions on Monday, September 18th.
+
+Determine the dispersion relation for the following systems of PDEs.
+Describe whether the resulting dynamics will be dispersive, dissipative, etc.
+\begin{enumerate}
+    \item   \begin{align*}
+                v_t & = u_{xx} \\
+                u_t & = v.
+            \end{align*}
+
+    \item   \begin{align*}
+                v_t & = u_x \\
+                u_t & = v_x.
+            \end{align*}
+
+    \item   \begin{align*}
+                i u_t & = u_{xx} - V(x) \psi.
+            \end{align*}
+            This is the Schrodinger equation and $V(x)$ is the potential;
+            for this exercise you can take $V$ to be a constant function.
+
+    \item (bonus; this one is a bit more difficult)
+            \begin{align*}
+                u_t & = v_x + v_{xx} \\
+                v_t & = u_x - u_{xx}.
+            \end{align*}
+\end{enumerate}
+
+\end{document}

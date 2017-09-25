@@ -51,9 +51,8 @@ The remainder of your grade for the course will be based on completion of a rese
 
 Important project dates:
 
-- Project proposal due: Sept. 18
+- Project proposal due: Sept. 25
 - Progress report due: October 23
 - Preject presentations/reports due: December 7
  
-Your project may be loosely related to your thesis research (but you must follow KAUST’s ethical guidelines on double submission) and you are encouraged to propose your own project topic.  A list of suggested project topics will be distributed during the first week of the course.
-
+Your project may be loosely related to your thesis research (but you must follow KAUST’s ethical guidelines on double submission) and you are encouraged to propose your own project topic.  A list of suggested project topics is available [here](https://github.com/numerical-mathematics/time-integration-course/wiki/Potential-course-project-topics-and-resources).

@@ -1,0 +1,40 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb}
+
+\newcommand{\C}{{\mathbb C}}
+\newcommand{\R}{{\mathbb R}}
+\DeclareMathOperator{\range}{range}
+\DeclareMathOperator{\Null}{null}
+\DeclareMathOperator{\Real}{Real}
+
+\title{AMCS 390 Fall 2017 Homework 5}
+
+\begin{document}
+\date{}
+\maketitle
+
+Come prepared to present your solutions on Monday, September 18th.
+
+\begin{enumerate}
+
+    \item Consider the centered, 4th-order finite-difference semi-discretization 
+            of the heat equation (using $u_{i-2}$ through $u_{i+2}$; you can look
+            it up or work out the coefficients yourself).  Is this semi-discretization
+            positive?
+
+            Implement the method (either directly via finite differences or using
+            the FFT) and test it for $0 \le x \le 1$ with homogeneous dirichlet
+            boundary conditions and the following initial conditions:
+
+            \begin{enumerate}
+                \item \begin{align*} x & = 1 + \sin(\pi x) \end{align*}
+                \item \begin{align*} x & = \begin{cases} 1 & x<1/2 \\ 0 & x > 1/2 \end{cases} \end{align*}
+                \item \begin{align*} x & = 1/2 - |1/2 - x| \end{align*}
+            \end{enumerate}
+
+    \item Prove that no 2nd-order finite difference semi-discretization for the advection equation
+            is positive.  This is mostly done for you in H\&W, but you will need to understand it,
+            write it in your own terms, and fill in the details.
+\end{enumerate}
+
+\end{document}

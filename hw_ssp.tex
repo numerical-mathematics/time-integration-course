@@ -1,0 +1,47 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb}
+
+\newcommand{\C}{{\mathbb C}}
+\newcommand{\R}{{\mathbb R}}
+\DeclareMathOperator{\range}{range}
+\DeclareMathOperator{\Null}{null}
+\DeclareMathOperator{\Real}{Real}
+
+\title{AMCS 390 Fall 2017 Homework 5}
+
+\begin{document}
+\date{}
+\maketitle
+
+Come prepared to present your solutions on Thursday, October 12th.
+
+For each method below, find the largest "apparent" SSP coefficient you can
+by rewriting the method in terms of combinations of forward Euler steps.
+\begin{enumerate}
+
+    \item  The 2-stage 2nd-order RK method with smallest truncation error:
+    
+\begin{align}
+\begin{array}{c|cc}
+ 0 & 0 & 0 \\
+\frac{2}{3} & \frac{2}{3} & 0 \\
+\hline
+ & \frac{1}{4} & \frac{3}{4}\\
+\end{array}
+\end{align}
+
+    \item  "The" Runge-Kutta method:
+
+    \begin{align}
+\begin{array}{c|cccc}
+ &  &  &  & \\
+\frac{1}{2} & \frac{1}{2} &  &  & \\
+\frac{1}{2} &  & \frac{1}{2} &  & \\
+1 &  &  & 1 & \\
+\hline
+ & \frac{1}{6} & \frac{1}{3} & \frac{1}{3} & \frac{1}{6}\\
+\end{array}
+\end{align}
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,55 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb}
+
+\newcommand{\C}{{\mathbb C}}
+\newcommand{\R}{{\mathbb R}}
+\DeclareMathOperator{\range}{range}
+\DeclareMathOperator{\Null}{null}
+\DeclareMathOperator{\Real}{Real}
+
+\title{AMCS 390 Fall 2017 Homework 5}
+
+\begin{document}
+\date{}
+\maketitle
+
+Come prepared to present your solutions on Thursday, November 16th.
+
+\begin{enumerate}
+
+    \item Consider the two-point BVP
+        \begin{align*}
+            \epsilon u'' & = a u' + b(t)u + q(t) \\
+            u(0) & = b_1 \\
+            u(1) & = b_2,
+        \end{align*}
+        where $a\ne0$ is a constant and $b, q$ are continuous functions, all
+        ${\mathcal O}(1)$.
+
+        (a) Write the ODE in first-order form for the vairables $y_1=u$ and
+            $y_2 = \epsilon u' - au$.
+        
+        (b) Letting $\epsilon \to 0$, show that the limit system is an index-1 DAE.
+
+        (c) Show that only one of the boundary conditions is needed to
+            determine the solution of the DAE.  Which one?  Why?
+
+    \item Consider the DAE
+        \begin{align*}
+            y_1' & = y_3 y_2' - y_2 y_3' \\
+            0 & = y_2 \\
+            0 & = y_3.
+        \end{align*}
+    
+        (a) Show that the DAE has index 1.
+
+        (b) Show that if we add to the right-hand side the (small) perturbation
+
+                $$\delta(t) = (0, \epsilon\sin(\omega t), \epsilon\cos(\omega t))^T$$
+
+            then in the perturbed solution $y_1 = \epsilon^2 \omega$, which is unbounded
+            as $\omega \to \infty$.  DAEs are unstable in the sense that small perturbations
+            to the algebraic equations can induce large perturbations in the solution.
+\end{enumerate}
+
+\end{document}

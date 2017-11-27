@@ -1,0 +1,47 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb}
+
+\newcommand{\C}{{\mathbb C}}
+\newcommand{\R}{{\mathbb R}}
+\DeclareMathOperator{\range}{range}
+\DeclareMathOperator{\Null}{null}
+\DeclareMathOperator{\Real}{Real}
+
+\title{AMCS 390 Fall 2017 Homework}
+
+\begin{document}
+\date{}
+\maketitle
+
+Come prepared to present your solutions on Thursday, November 30th.
+
+\begin{enumerate}
+
+    \item Consider the advection IBVP on the interval $0\le x \le 1$:
+        \begin{align*}
+            u_t & = u_x \\
+            u(x=1,t) & = 0 \\
+            u(x,t=0) & = u_0(x).
+        \end{align*}
+
+        (a) Semi-discretize in space with first-order upwinding, to obtain a linear
+            system of ODEs $u'(t) = Au(t)$.  What is the spectrum of $A$?  What do
+            its $\epsilon$-pseudospectra look like?  You can try using random
+            perturbations or a pseudospectra package to answer the latter question.
+        
+        (b) Discretize in time with the forward Euler method.  What does traditional
+            method-of-lines stability analysis say about the stable time step size?
+            In other words, what is the largest step size such that $h\lambda$ is
+            in the region of absolute stability?
+
+        (c) Implement this full discretization.  What happens in practice if
+            you take the step size indicated in part (b)?  Be sure to consider what
+            the numerical solution does over both short and long times.
+
+        (d) What does the CFL condition say?
+
+        (e) Can you reconcile all of these answers based on the pseudospectra?
+
+\end{enumerate}
+
+\end{document}
